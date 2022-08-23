@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM Básica - Curso práctico de  JS</title>
+</head>
+<body>
+    <h1>Manipulación del DOM básico</h1>
+
+    <!-- Los formularios interpretan los botones como submit
+    lo que hace que recargue la página-->
+    
+    <form id="form">
+        <input id='calculo' placeholder="Escribe algo aquí"> <!--  value="hola, escribe aquí"> -->
+    
+        <!-- el onchange='' en html permite hacer algo si se modifica el input -->
+        <input id='calculo2' placeholder="Escribe algo aquí"> <!--  value="hola, escribe aquí"> -->
+
+        <!-- el onclick='' en html permite hacer algo si dan click en el botón -->
+        <button id="btncalcular">Calcular</button>
+        
+        <p id="result"></p>
+    </form>
+    
+    <script src="./script.js"></script> 
+</body>
+</html>
